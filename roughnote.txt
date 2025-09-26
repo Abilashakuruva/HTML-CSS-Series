@@ -23,3 +23,60 @@
 
 
 
+// function greet(name="srinu") {
+//   return "Hello, " + name;
+// }
+// console.log(greet("Abhilasha")); // Output: Hello, Abhilasha
+
+// function add(a, b) {
+//   return a + b;
+// }
+// console.log(add(3, 4)); // 7
+
+// const multiply = function(a, b) {
+//   return a * b;
+// };
+// console.log(multiply(2, 5)); // 10
+
+// const square = (x) => x * x;
+// console.log(square(4)); // 16
+
+// setTimeout(function() {
+//   console.log("Anonymous function executed!");
+// }, 1000);
+
+// (function() {
+//   console.log("IIFE executed!");
+// })();
+
+// function calculator(operation, a, b) {
+//   return operation(a, b);
+// }
+// console.log(calculator((x, y) => x + y, 5, 3)); // 8
+
+// function greetUser(callback) {
+//   console.log("Hello!");  // Hello!
+//   callback();
+// }
+// greetUser(() => console.log("Welcome, Abhilasha")); // Welcome, Abhilasha
+
+// function Person(name, age) {
+//   this.name = name;
+//   this.age = age;
+// }
+// const user = new Person("Abhilasha", 25);
+// console.log(user.name); // Abhilasha
+
+// function* count() {
+//   yield 1;
+//   yield 2;
+//   yield 3;
+// }
+// const gen = count();
+// console.log(gen.next().value); // 1
+// console.log(gen.next().value); // 2
+
+// async function fetchData() {
+//   return "Data fetched!";
+// }
+// fetchData().then(console.log); // Data fetched!
